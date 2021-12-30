@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    background:linear-gradient(to top, rgba(0,0,0, 0.5)50%,rgba(0,0,0,0.5)50%), url('bg.jpg') no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size :cover;
+    overflow: hidden;
+}
+
+h1{
+    color: #fff;
+    font-size: 6rem;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h2{
+    color: #fff;
+    font-size: 3rem;
+    text-align: center
+}
+
+.link{
+    padding-left: 33.5rem;
+    display: block;
+}
+
+.link a{
+    color: #fff;
+    font-size: 2rem;
+    letter-spacing: 4rem;
+    text-decoration: none;
+    transition: 0.6s ease-in-out;
+}
+
+a:hover{
+    color: black;
+}
+
+.p p{
+    padding-left: 30.5rem;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.b{
+    padding-left: 38rem;
+}
+
+.b button{
+    font-size: 1rem;
+    border-radius: 9px;
+    background: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-color: rgb(72, 228, 0);
+    transition: 0.6s ease-in-out;
+}
+
+.b a{
+    color:rgb(72, 228, 0);
+    text-decoration: none;
+    transition: 0.6s ease-in-out;
+}
+
+.b a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.b button:hover{
+    border-color: #fff;
+}
+
+@media(max-width:991px){
+    html{
+        font-size: 55%;
+    }
+
+    body{
+        padding: 0;
+    }
+
+    h1{
+        font-size: 4rem;
+        padding-top: 200px;
+    }
+
+    .link{
+        display: block;
+        padding-left: 13.5rem;
+    }
+
+    .p P{
+        padding-left: 10.5rem;
+        padding-top: 10px;
+        color: #fff;
+        font-size: 2rem;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .b{
+        padding-left: 17rem;
+    }
+}
