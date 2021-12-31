@@ -25,7 +25,6 @@ h2{
 }
 
 .link{
-    padding-left: 33.5rem;
     display: block;
 }
 
@@ -42,7 +41,6 @@ a:hover{
 }
 
 .p p{
-    padding-left: 30.5rem;
     padding-top: 10px;
     color: #fff;
     font-size: 2rem;
@@ -89,11 +87,9 @@ a:hover{
 
     .link{
         display: block;
-        padding-left: 13.5rem;
     }
 
     .p P{
-        padding-left: 10.5rem;
         padding-top: 10px;
         color: #fff;
         font-size: 2rem;
